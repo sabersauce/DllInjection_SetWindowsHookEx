@@ -16,7 +16,7 @@ main(int argc, char *argv[]) {
 	if (argc != 3) {
 		if (argc != 1) printf("Wrong parameters.\n\n");
 		printf("Usage:injector.exe <ProcessName> <DataDestinationPath>\n");
-		printf("Do not run this program as administrator unless you are going to inject the DLL into a system program.\n");
+		printf("Do not run as administrator unless you are going to inject the DLL into a system program.\n");
 		return -1;
 	}
 
